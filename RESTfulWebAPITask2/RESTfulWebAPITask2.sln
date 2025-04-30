@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTfulWebAPITask2", "RESTfulWebAPITask2\RESTfulWebAPITask2.csproj", "{1AD92562-412B-4875-BC75-45376CC22B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{C67C0F1D-9307-4E9C-AB0A-6B038E5EAE0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1AD92562-412B-4875-BC75-45376CC22B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD92562-412B-4875-BC75-45376CC22B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD92562-412B-4875-BC75-45376CC22B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67C0F1D-9307-4E9C-AB0A-6B038E5EAE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67C0F1D-9307-4E9C-AB0A-6B038E5EAE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67C0F1D-9307-4E9C-AB0A-6B038E5EAE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67C0F1D-9307-4E9C-AB0A-6B038E5EAE0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
