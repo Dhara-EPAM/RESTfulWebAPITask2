@@ -53,5 +53,14 @@ namespace RESTfulWebAPITask2.Services
             return _dbContext.Carts
                .Include(c => c.CartItems).ToList();
         }
+        public List<CartItem> GetOnlyCartItems()
+        {
+            return _dbContext.CartItems.ToList();
+        }
+        public void UpdateSpecificCartItem(CartItem cartItem)
+        {
+            _dbContext.CartItems.Update(cartItem);
+            _dbContext.SaveChanges();
+        }
     }
 }
