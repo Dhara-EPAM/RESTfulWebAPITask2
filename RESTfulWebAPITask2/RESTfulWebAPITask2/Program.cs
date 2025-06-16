@@ -16,6 +16,10 @@ builder.Services.AddDbContext<CartDBContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Register RabbitMqBgService
+builder.Services.AddHostedService<RabbitMqBackgroundService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
