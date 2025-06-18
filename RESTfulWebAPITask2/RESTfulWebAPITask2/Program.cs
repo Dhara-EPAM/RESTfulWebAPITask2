@@ -63,6 +63,9 @@ builder.Services.AddAuthentication("Bearer").AddJwtBearer(options =>
 });
 builder.Services.AddAuthorization();
 
+//Register RabbitMqBgService
+builder.Services.AddHostedService<RabbitMqBackgroundService>();
+
 //Build
 var app = builder.Build();
 

@@ -8,5 +8,9 @@ namespace RESTfulWebAPITask2.Services
         Cart AddCartItem(string cartId, CartItem cartItem);
         void DeleteCartItem(CartItem cartItem);
         List<Cart> GetAllCartswithItems();
+
+        //For Messagebroker implementation
+        List<CartItem> GetOnlyCartItems();
+        void UpdateSpecificCartItem(CartItem cartItem);
     }
 }
